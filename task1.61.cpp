@@ -8,7 +8,7 @@ int main()
 
 	double a;
 
-	cout << "Ââåäèòå a: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ a: " << endl;
 	cin >> a;
 
 	double aToThe4thPower = a * a * pow(a, 2.0);
@@ -23,7 +23,7 @@ int main()
 	double aToThe28thPower = pow(a, 4.0) * pow(a, 4.0) * pow(a, 4.0) * pow(a, 4.0) * pow(a, 4.0) * pow(a, 4.0) * pow(a, 4.0);
 	double aToThe64thPower = pow(a, 4.0) * pow(a, 10.0) * pow(a, 10.0) * pow(a, 10.0) * pow(a, 10.0) * pow(a, 10.0) * pow(a, 10.0);
 
-	cout << "Ðåçóëüòàòû âû÷èñëåíèé: " << endl;
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ñ‹ Ð²Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ð¹: " << endl;
 	cout << aToThe4thPower << endl;
 	cout << aToThe6thPower << endl;
 	cout << aToThe7thPower << endl;
