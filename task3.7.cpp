@@ -14,8 +14,8 @@ int main()
 	bool b = !A || A && (B || C);
 	bool c = (A || B || !C) && C;
 
-	cout << "Ðåçóëüòàò a = " << a << endl;
-	cout << "Ðåçóëüòàò b = " << b << endl;
-	cout << "Ðåçóëüòàò c = " << c << endl;
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ a = " << a << endl;
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ b = " << b << endl;
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ c = " << c << endl;
 
 }
