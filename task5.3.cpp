@@ -6,28 +6,28 @@ int main()
 
     setlocale(0, "");
     
-    cout << "×èñëà îò 20 äî 35: " << endl;
+    cout << "Ð§Ð¸ÑÐ»Ð° Ð¾Ñ‚ 20 Ð´Ð¾ 35: " << endl;
     for (int i = 20; i <= 35; ++i) {
         cout << i << endl;
     }
 
     int b, a;
 
-    cout << "Ââåäèòå b, a (b >= 10, a <= 50, b >= a): " << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ b, a (b >= 10, a <= 50, b >= a): " << endl;
     cin >> b;
     cin >> a;
 
-    cout << "Êâàäðàòû ÷èñåë îò 10 äî " << b << ": "<< endl;
+    cout << "ÐšÐ²Ð°Ð´Ñ€Ð°Ñ‚Ñ‹ Ñ‡Ð¸ÑÐµÐ» Ð¾Ñ‚ 10 Ð´Ð¾ " << b << ": "<< endl;
     for (int i = 10; i <= b; ++i) {
         cout << pow( i, 2.0) << endl;
     }
 
-    cout << "Òðåòüè ñòåïåíè ÷èñåë îò " << a << " äî 50:" << endl;
+    cout << "Ð¢Ñ€ÐµÑ‚ÑŒÐ¸ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸ Ñ‡Ð¸ÑÐµÐ» Ð¾Ñ‚ " << a << " Ð´Ð¾ 50:" << endl;
     for (int i = a; i <= 50; ++i) {
-        cout << pow(i, 3) << endl;
+        cout << pow(i, 3.0) << endl;
     }
 
-    cout << "×èñëà îò " << a << " äî " << b << ": " << endl;
+    cout << "Ð§Ð¸ÑÐ»Ð° Ð¾Ñ‚ " << a << " Ð´Ð¾ " << b << ": " << endl;
     for (int i = a; i <= b; ++i) {
         cout << i << endl;
     }
