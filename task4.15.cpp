@@ -8,16 +8,16 @@ int main()
 
 	int monthOfBirth, currentMonth, yearOfBirth, currentYear;
 
-	cout << "Ââåäèòå ìåñÿö ðîæäåíèÿ: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼ÐµÑÑÑ† Ñ€Ð¾Ð¶Ð´ÐµÐ½Ð¸Ñ: " << endl;
 	cin >> monthOfBirth;
 
-	cout << "Ââåäèòå ãîä ðîæäåíèÿ: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð³Ð¾Ð´ Ñ€Ð¾Ð¶Ð´ÐµÐ½Ð¸Ñ: " << endl;
 	cin >> yearOfBirth;
 
-	cout << "Ââåäèòå òåêóùèé ìåñÿö: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐºÑƒÑ‰Ð¸Ð¹ Ð¼ÐµÑÑÑ†: " << endl;
 	cin >> currentMonth;
 
-	cout << "Ââåäèòå òåêóùèé ãîä: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐºÑƒÑ‰Ð¸Ð¹ Ð³Ð¾Ð´: " << endl;
 	cin >> currentYear;
 
 	int age;
@@ -28,7 +28,7 @@ int main()
 	else
 		age = currentYear - (yearOfBirth + 1);
 
-	cout << "Âîçðàñò: " << age << endl;
+	cout << "Ð’Ð¾Ð·Ñ€Ð°ÑÑ‚: " << age << endl;
 
 	return 0;
 
