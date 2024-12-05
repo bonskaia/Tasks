@@ -1,3 +1,20 @@
+/* Дано вещественное число а. Пользуясь только операцией умножения, получить:
+а) 4 a за две операции;
+б) 6 a за три операции;
+в) 7 a за четыре операции;
+г) 8 a за три операции;
+д) 9 a за четыре операции;
+е) 10 a за четыре операции;
+ж) 13 a за пять операций;
+з) 15 a за пять операций;
+и) 21 a за шесть операций;
+к) 28 a за шесть операций;
+л) 64 a за шесть операций. */
+
+
+
+
+
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -11,30 +28,32 @@ int main()
 	cout << "Введите a: " << endl;
 	cin >> a;
 
-	double aToThe4thPower = a * a * pow(a, 2.0);
-	double aToThe6thPower = a * a * pow(a, 2.0) * pow(a, 2.0);
-	double aToThe7thPower = a * a * a * pow(a, 2.0) * pow(a, 2.0);
-	double aToThe8thPower = pow(a, 2.0) * pow(a, 2.0) * pow(a, 2.0) * pow(a, 2.0);
-	double aToThe9thPower = a * pow(a, 2.0) * pow(a, 2.0) * pow(a, 2.0) * pow(a, 2.0);
-	double aToThe10thPower = pow(a, 2.0) * pow(a, 2.0) * pow(a, 2.0) * pow(a, 2.0) * pow(a, 2.0);
-	double aToThe13thPower = a * pow(a, 2.0) * pow(a, 2.0) * pow(a, 2.0) * pow(a, 3.0) * pow(a, 3.0);
-	double aToThe15thPower = pow(a, 2.0) * pow(a, 2.0) * pow(a, 2.0) * pow(a, 3.0) * pow(a, 3.0) * pow(a, 3.0);
-	double aToThe21thPower = pow(a, 3.0) * pow(a, 3.0) * pow(a, 3.0) * pow(a, 3.0) * pow(a, 3.0) * pow(a, 3.0) * pow(a, 3.0);
-	double aToThe28thPower = pow(a, 4.0) * pow(a, 4.0) * pow(a, 4.0) * pow(a, 4.0) * pow(a, 4.0) * pow(a, 4.0) * pow(a, 4.0);
-	double aToThe64thPower = pow(a, 4.0) * pow(a, 10.0) * pow(a, 10.0) * pow(a, 10.0) * pow(a, 10.0) * pow(a, 10.0) * pow(a, 10.0);
+	double a2 = a * a;
+	double a3 = a * a * a;
+	double a4 = a * a * a2;
+	double a6 = a * a * a2 * a2;
+	double a7 = a * a * a * a2 * a2;
+	double a8 = a2 * a2 * a2 * a2;
+	double a9 = a * a2 * a2 * a2 * a2;
+	double a10 = a2 * a2 * a2 * a2 * a2;
+	double a13 = a * a2 * a2 * a2 * a3 * a3;
+	double a15 = a2 * a2 * a2 * a3 * a3 * a3;
+	double a21 = a3 * a3 * a3 * a3 * a3 * a3 * a3;
+	double a28 = a4 * a4 * a4 * a4 * a4 * a4 * a4;
+	double a64 = a4 * a10 * a10 * a10 * a10 * a10 * a10;
 
 	cout << "Результаты вычислений: " << endl;
-	cout << aToThe4thPower << endl;
-	cout << aToThe6thPower << endl;
-	cout << aToThe7thPower << endl;
-	cout << aToThe8thPower << endl;
-	cout << aToThe9thPower << endl;
-	cout << aToThe10thPower << endl;
-	cout << aToThe13thPower << endl;
-	cout << aToThe15thPower << endl;
-	cout << aToThe21thPower << endl;
-	cout << aToThe28thPower << endl;
-	cout << aToThe64thPower << endl;
+	cout << a4<< endl;
+	cout << a6 << endl;
+	cout << a7 << endl;
+	cout << a8 << endl;
+	cout << a9 << endl;
+	cout << a10 << endl;
+	cout << a13 << endl;
+	cout << a15 << endl;
+	cout << a21 << endl;
+	cout << a28 << endl;
+	cout << a64 << endl;
 
 	return 0;
 }
